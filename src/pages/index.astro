@@ -1,9 +1,65 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
+
+const cola = {
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Cola",
+  "image": "https://images.unsplash.com/photo-1567103472667-6898f3a79cf2?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "description": "Coca-Cola: A timeless classic, loved worldwide. Dive into the story of this iconic beverage, from its humble beginnings to its global presence today. Explore its secret recipe, cultural significance, and future journey.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Coca Cola"
+  }
+}
+
 ---
-<MainLayout title="Titel">
-	<article>
-		<p>Index indhold</p>
-	</article>
+<MainLayout title="Coca-cola"
+description="Udforsk historien om Coca-Cola: Fra opstart til global ikon. Opdag den hemmelige opskrift, dens popkulturelle arv og dens fremtid"
+ogtitel="Coca-cola: en helt ny verden"
+ogdespection="Coca-Cola: En ikonisk drik med en fascinerende historie. Fra starten til i dag, få et indblik i dens hemmelige opskrift, popkulturelle betydning og fremtidige rejse"
+>
+	
+<section class="">
+	<h1 class="md:text-center text-3xl font-bold py-10">Historien om Coca-Cola: En Ikonisk Drik Med Global Indflydelse</h1>
+
+<div class="grid grid-cols-1 gap-10 mx-96">
+
+	<div class="">
+		<h2 class="font-bold text-[18px] pb-1">Introduktion:</h2>
+		<p class="leading-7" >Coca-Cola - navnet alene vækker minder om forfriskning, fællesskab og global kultur. Denne ikoniske læskedrik har sat sit præg på verden og fortsætter med at være en uundværlig del af hverdagen for millioner af mennesker over hele kloden. Lad os dykke ned i historien bag Coca-Cola og udforske, hvordan den har formet vores verden siden dens introduktion.</p>
+	</div>
+
+	<div>
+		<h2 class="font-bold text-[18px] pb-1">Fødslen af Coca-Cola</h2>
+		<p class="leading-7">Coca-Cola så første gang dagens lys i 1886, da apotekeren John Pemberton skabte en forfriskende drik baseret på kolanødden og kulsyreholdigt vand. Med sin unikke smag og læskende egenskaber blev Coca-Cola hurtigt populær i Atlanta, Georgia, hvor den blev skabt. Det blev starten på en global bevægelse.</p>
+	</div>
+
+	<div>
+		<h2 class="font-bold text-[18px] pb-1">Den Hemmelige Opskrift</h2>
+		<p class="leading-7">Coca-Cola er ikke bare en almindelig læskedrik. Den har en hemmelig opskrift, der er omgærdet af mystik og fascination. Selvom ingredienserne holdes hemmelige, er det kendt, at den indeholder kolanøddeekstrakt og aromastoffer, der giver dens karakteristiske smag. Hemmeligheden bag Coca-Cola har været en del af dens appel i over et århundrede.</p>
+	</div>
+
+	<div>
+		<h2 class="font-bold text-[18px] pb-1">Coca-Cola i Popkulturen</h2>
+		<p class="leading-7">Coca-Cola har ikke kun været en læskedrik, men også en del af global popkultur. Fra reklamer og merchandise til film og musik har Coca-Cola indtaget en central plads i menneskers liv og sjæle over hele verden. Dens ikoniske logo og forfriskende smag er blevet et symbol på fællesskab, glæde og samhørighed.</p>
+	</div>
+
+	<div>
+		<h2 class="font-bold text-[18px] pb-1">Fremtiden for Coca-Cola</h2>
+		<p class="leading-7">Selvom Coca-Cola har været en del af vores verden i over et århundrede, fortsætter dens rejse ind i fremtiden. Med et konstant skiftende marked og øget fokus på bæredygtighed og sundhed står Coca-Cola over for nye udfordringer. Men dens stærke position som en global brand og dens evne til at bringe mennesker sammen vil sandsynligvis sikre dens plads som en af verdens mest ikoniske drikkevarer i mange år fremover.</p>
+	</div>
+
+	<div>
+		<h2 class="font-bold text-[18px] pb-1">Til sidst</h2>
+		<p class="leading-7">Coca-Cola er mere end bare en læskedrik - den er en del af vores kultur og vores fælles historie. Gennem årtier har den formet vores verden og været en kilde til glæde og forfriskning for millioner af mennesker. Uanset hvad fremtiden bringer, vil Coca-Cola forblive en elsket og ikonisk del af vores liv.</p>
+	</div>
+</div>
+
+</section>
+
+
+
+
 </MainLayout>
